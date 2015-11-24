@@ -1,4 +1,7 @@
 # mongoose-idexists
+
+[![NPM Version][npm-image]][npm-url]
+
 > Mongoose plugin that checks if referenced documents actually exist.
 
 
@@ -57,3 +60,6 @@ $ npm test
 ## License
 
 MIT © [Andrea Tarquini](https://blog.h4t0n.com)
+
+[npm-image]: https://img.shields.io/npm/v/mongoose-idexists.svg
+[npm-url]: https://www.npmjs.com/package/mongoose-idexists
