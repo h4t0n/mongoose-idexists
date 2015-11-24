@@ -1,0 +1,7 @@
+{
+    "node": true,
+    "proto": true,
+    "strict": true,
+    "mocha" : true,
+    "expr": true
+}
