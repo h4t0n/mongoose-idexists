@@ -1,6 +1,6 @@
 # mongoose-idexists
 
-[![NPM Version][npm-image]][npm-url]
+[![NPM Version][npm-image]][npm-url] [![Travis Build][travis-image]][travis-url]
 
 > Mongoose plugin that checks if referenced documents actually exist.
 
@@ -63,3 +63,5 @@ MIT © [Andrea Tarquini](https://blog.h4t0n.com)
 
 [npm-image]: https://img.shields.io/npm/v/mongoose-idexists.svg
 [npm-url]: https://www.npmjs.com/package/mongoose-idexists
+[travis-image]: https://img.shields.io/travis/h4t0n/mongoose-idexists.svg
+[travis-url]: https://travis-ci.org/h4t0n/mongoose-idexists
