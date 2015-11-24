@@ -6,6 +6,7 @@
   "scripts": {
     "test": "./node_modules/.bin/mocha"
   },
+  "repository": "h4t0n/mongoose-idexists",
   "keywords": [
     "mongoose",
     "validator"
