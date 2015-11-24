@@ -1,5 +1,5 @@
 {
-  "name": "mongoose-id-exist",
+  "name": "mongoose-idexists",
   "version": "1.0.0",
   "description": "Mongoose Validator to checks if the ref Object ID exists",
   "main": "index.js",
