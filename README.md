@@ -1,5 +1,5 @@
 # mongoose-idexists
-[![NPM Version][npm-image]][npm-url] [![Travis Build][travis-image]][travis-url] [![Twitter URL][twitter-image]][twitter-url]
+[![NPM Version][npm-image]][npm-url] [![Travis Build][travis-image]][travis-url]
 
 > Mongoose plugin that checks if referenced documents actually exist.
 
