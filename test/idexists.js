@@ -23,7 +23,6 @@ var storySchema = new Schema({
     }]
 });
 
-
 describe("[mongoose-idexists] default mongoose connection and messages", function () {
 
     var Story;
@@ -384,5 +383,34 @@ describe("[mongoose-idexists] optional connection with optional messages", funct
 
     });
 
+});
+
+describe("[mongoose-idexists] path error", function () {
+
+    it("shoudl throw an Exception when the path is invalid", function (done) {
+
+        try {
+            idexists.forPath("invalid_path");
+            done(new Error("it should throw an Invalid Mongoose Schema Path"));
+        } catch (err) {
+            expect(err.message).to.equal("Invalid Mongoose Schema Path");
+        }
+
+        try {
+            idexists.forPath();
+            done(new Error("it should throw an Invalid Mongoose Schema Path"));
+        } catch (err) {
+            expect(err.message).to.equal("Invalid Mongoose Schema Path");
+        }
+
+        try {
+            idexists.forPath({});
+            done(new Error("it should throw an Invalid Mongoose Schema Path"));
+        } catch (err) {
+            expect(err.message).to.equal("Invalid Mongoose Schema Path");
+            done();
+        }
+
+    });
 
 });
